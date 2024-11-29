@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ảnh Liên Quân</title>
+</head>
+<body>
+    <label for="heroes">Chọn  Tướng</label>
+    <select id="heroes" name="heroes" onchange="generateImageList()">
+    <option value="None">None</option>
+    <option value="130">Airi</option>
+    <option value="156">Aleister</option>
+    <option value="118">Alice</option>
+    <option value="537">Allain</option>
+    <option value="193">Amily</option>
+    <option value="519">Annette</option>
+    <option value="126">Arduin</option>
+    <option value="166">Arthur</option>
+    <option value="187">Arum</option>
+    <option value="502">Astrid</option>
+    <option value="511">Ata</option>
+    <option value="543">Aya</option>
+    <option value="127">Azzen'Ka</option>
+    <option value="505">Baldum</option>
+    <option value="598">Baron</option>
+    <option value="597">Biron</option>
+    <option value="548">Bijan</option>
+    <option value="541">Bonnie</option>
+    <option value="540">Bright</option>
+    <option value="116">Butterfly</option>
+    <option value="524">Capheny</option>
+    <option value="192">Celica</option>
+    <option value="113">Chaugnar</option>
+    <option value="206">Charlotte</option>
+    <option value="171">Cresht</option>
+    <option value="523">D'Arcy</option>
+    <option value="534">Dextra</option>
+    <option value="530">Dirak</option>
+    <option value="152">Điêu Thuyền</option>
+    <option value="196">Elsu</option>
+    <option value="199">Elando'rr</option>
+    <option value="195">Enzo</option>
+    <option value="567">Erin</option>
+    <option value="522">Errol</option>
+    <option value="173">Fennik</option>
+    <option value="521">Florentino</option>
+    <option value="108">Gildur</option>
+    <option value="175">Grakk</option>
+    <option value="132">Hayate</option>
+    <option value="184">Helen</option>
+    <option value="124">Ignis</option>
+    <option value="538">Iggy</option>
+    <option value="136">Ilumia</option>
+    <option value="526">Ishar</option>
+    <option value="115">Jinna</option>
+    <option value="153">Kaine</option>
+    <option value="110">Kahlii</option>
+    <option value="531">Keera</option>
+    <option value="139">Kil'Groth</option>
+    <option value="162">Kriknak</option>
+    <option value="106">Krixi</option>
+    <option value="189">Krizzix</option>
+    <option value="141">Lauriel</option>
+    <option value="533">Laville</option>
+    <option value="510">Liliana</option>
+    <option value="177">Lindis</option>
+    <option value="539">Lorion</option>
+    <option value="128">Lữ Bố</option>
+    <option value="168">Lumburr</option>
+    <option value="123">Maloch</option>
+    <option value="121">Marja</option>
+    <option value="180">Max</option>
+    <option value="119">Mganga</option>
+    <option value="120">Mina</option>
+    <option value="568">Ming</option>
+    <option value="170">Moren</option>
+    <option value="131">Murad</option>
+    <option value="150">Nakroth</option>
+    <option value="142">Natalya</option>
+    <option value="167">Ngộ</option>
+    <option value="114">Omega</option>
+    <option value="506">Omen</option>
+    <option value="117">Ormarr</option>
+    <option value="137">Paine</option>
+    <option value="148">Preyta</option>
+    <option value="528">Qi</option>
+    <option value="518">Quillen</option>
+    <option value="157">Raz</option>
+    <option value="515">Richter</option>
+    <option value="512">Rourke</option>
+    <option value="191">Rouie</option>
+    <option value="514">Roxie</option>
+    <option value="163">Ryoma</option>
+    <option value="527">Sephera</option>
+    <option value="535">Sinestrea</option>
+    <option value="134">Skud</option>
+    <option value="169">Slimz</option>
+    <option value="174">Stuart</option>
+    <option value="140">Superman</option>
+    <option value="542">Tachi</option>
+    <option value="144">Taara</option>
+    <option value="501">Tel'Annas</option>
+    <option value="546">Teeri</option>
+    <option value="186">TeeMee</option>
+    <option value="135">Thane</option>
+    <option value="507">The</option>
+    <option value="532">Thorne</option>
+    <option value="105">Toro</option>
+    <option value="129">Triệu Vân</option>
+    <option value="190">Tulen</option>
+    <option value="133">Valhein</option>
+    <option value="109">Veera</option>
+    <option value="520">Veres</option>
+    <option value="111">Violet</option>
+    <option value="529">Volkath</option>
+    <option value="504">Wonder</option>
+    <option value="194">Wiro</option>
+    <option value="508">Wisp</option>
+    <option value="149">Xeniel</option>
+    <option value="509">Y'bneth</option>
+    <option value="544">Yan</option>
+    <option value="154">Yena</option>
+    <option value="112">Yorn</option>
+    <option value="545">Yue</option>
+    <option value="107">Zephys</option>
+    <option value="513">Zata</option>
+    <option value="146">Zill</option>
+    <option value="525">Zip</option>
+    <option value="503">Zuka</option>
+</select>
+   <div id="image-list"></div>
+    <script src="popup.js">
+    </script>
+</body>
+</html>
