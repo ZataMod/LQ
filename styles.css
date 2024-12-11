@@ -63,3 +63,33 @@ select {
     border-radius: 5px;
     text-align: center;
 }
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.hero-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.download-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.download-button:hover {
+    background-color: rgba(0, 86, 179, 0.9);
+}
